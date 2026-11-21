@@ -1,0 +1,9 @@
+Rotte Statiche
+
+Obbiettivo:
+
+Configurare su R1 le route statiche per raggiungere il server: una rotta host (/32) via R2 valida solo per il server e 
+una rotta principale verso LAN di R4 tramite R3
+Configurare su R1 una rotta statica floating verso la LAN di R4 via R2, con distanza amministrativa più alta
+che subentra quando il collegamento diretto con R3 non è disponibile.
+Configurare su R2 una rotta di default verso l'ISP per i pacchetti la cui destinazione non è presente nella tabella di routing.
