@@ -1,0 +1,10 @@
+OSPF su tre router
+
+Obbiettivo:
+
+Configurare su R1, R2 e R3 le adiacenze OSPF in area 0.
+Configurare i Router ID di R1 e R2 usando gli indirizzi del collegamento che condividono.
+Configurare R2 come DR sui collegamenti verso R1 e R3, con priorità massima sulle sue interfacce, 
+lasciando al valore predefinito quella di R1 e R3.
+Configurare l'annuncio in OSPF delle reti Loopback1 dei tre router con wildcard host.
+Configurare il collegamento tra R1 e R3 come rete punto-punto, senza elezione di DR e BDR.
