@@ -1,0 +1,10 @@
+ACL, utente locale e DHCP Snooping
+
+Obiettivo:
+
+Configurare su SW103 un utente locale con privilegio massimo e accesso Telnet sulle linee virtuali 0-4.
+Configurare su R1 la ACL INTERNET_ACL consentendo HTTPS dalla rete 172.16.0.0/16 e 
+Telnet solo dalla rete della VLAN 101 (172.16.101.0/24), e bloccando tutto il resto
+Applicare la ACL in uscita sull'interfaccia di R1 verso Internet.
+Configurare su SW101 il DHCP Snooping per la VLAN 101, disattivando l'inserimento dell'Option-82 e abilitando 
+la verifica del MAC address.
